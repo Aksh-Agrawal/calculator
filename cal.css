@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aliceblue;
+}
+.container-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 74vh;
+  background-color: black;
+
+  width: 32rem;
+  border-radius: 0.8rem;
+}
+.container {
+  background-color: grey;
+  height: 70vh;
+  width: 30rem;
+  border-radius: 0.8rem;
+}
+.input {
+  height: 6.3rem;
+  border-radius: 0.8rem;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.4) inset;
+   border: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: rgb(40, 187, 187);
+  margin: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.input-msg {
+  font-size: 3rem;
+  display: flex;
+}
+i {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+button {
+  height: 4.7rem;
+  width: 6.8rem;
+  margin: 0.2rem;
+  font-size: 1.5rem;
+border-radius: 1rem;
+box-shadow: 0rem 0rem 0.4rem rgba(0, 0, 0, 0.4) ;
+}
+.eq {
+  margin-bottom: 4rem;
+  margin-left: 15rem;
+}
+.equal{
+  width: 90%;
+ 
+}
+
+button:hover {
+  /* height: 5rem;
+  width: 7rem; */
+  opacity: 0.8;
+  font-size: 1.7rem;
+} 
